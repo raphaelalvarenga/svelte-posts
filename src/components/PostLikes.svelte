@@ -2,6 +2,8 @@
     import FaRegHeart from 'svelte-icons/fa/FaRegHeart.svelte';
     import FaHeart from 'svelte-icons/fa/FaHeart.svelte';
     import FaRegComment from 'svelte-icons/fa/FaRegComment.svelte';
+
+    // export let likes = [];
 </script>
 
 <div class="likes">

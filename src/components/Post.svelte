@@ -13,9 +13,9 @@
         author = {post.author.name}
         title = {post.title}
     />
-    <PostBody />
+    <PostBody description = {post.description} image = {post.imageUrl} />
     <PostLikes />
-    <PostComments />
+    <PostComments comments = {post.comments} />
 </div>
 
 <style>

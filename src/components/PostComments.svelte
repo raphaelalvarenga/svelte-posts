@@ -2,29 +2,33 @@
     import FaRegHeart from 'svelte-icons/fa/FaRegHeart.svelte';
     import FaHeart from 'svelte-icons/fa/FaHeart.svelte';
     import FaRegComment from 'svelte-icons/fa/FaRegComment.svelte';
+
+    export let comments = [];
 </script>
 
 <div class="comments">
-    <div class="comment">
-        <div class="author">
-            <div class="avatar">
-                <img src="https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/2/1/d/0/21d077ea5a8c65c86ef95a9e5b598b69.jpg" alt="user">
+    {#each comments as comment (comment.id)}
+        <div class="comment">
+            <div class="author">
+                <div class="avatar">
+                    <img src={comment.avatar} alt="user">
+                </div>
+                {comment.name}
             </div>
-            Ringo Starr
+
+            <div class="description">{comment.comment}</div>
+
+            <div class="likes">
+                <div class = "icons">
+                    <FaRegHeart />
+                </div>
+
+                <div class = "icons">
+                    <FaRegComment />
+                </div>
+            </div>
         </div>
-
-        <div class="description">This is actually a great news! I can't wait to see what is going to happen from that...</div>
-
-        <div class="likes">
-            <div class = "icons">
-                <FaRegHeart />
-            </div>
-
-            <div class = "icons">
-                <FaRegComment />
-            </div>
-        </div>
-    </div>
+    {/each}
 </div>
 
 <style>
@@ -32,6 +36,10 @@
         background: rgba(0, 0, 0, 0.1);
         padding: 20px;
         border-radius: 8px;
+    }
+
+    .comment {
+        margin-bottom: 30px;
     }
 
     .author {

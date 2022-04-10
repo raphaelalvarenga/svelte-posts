@@ -1,7 +1,12 @@
+<script>
+    export let description;
+    export let image = "";
+</script>
+
 <div class="body">
-    <div class="description">Paul and I will be meeting next week to discuss about a reunion</div>
+    <div class="description">{description}</div>
     <div class="image">
-        <img src="https://f.i.uol.com.br/fotografia/2021/10/11/163396262061644a7ccf922_1633962620_3x2_md.jpg" alt="description">
+        <img src={image} alt="description">
     </div>
 </div>
 
@@ -12,5 +17,9 @@
 
     .description {
         padding: 10px 0;
+    }
+
+    .image img {
+        width: 100%;
     }
 </style>
