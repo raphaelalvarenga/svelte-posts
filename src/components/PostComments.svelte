@@ -37,6 +37,7 @@
     .author {
         display: flex;
         align-items: center;
+        font-weight: bold;
     }
 
     .avatar {
@@ -54,7 +55,7 @@
         margin-left: 60px;
     }
 
-        .likes {
+    .likes {
         margin-top: 15px;
         margin-left: 60px;
         display: flex;
