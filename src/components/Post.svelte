@@ -3,6 +3,7 @@
     import PostBody from './PostBody.svelte';
     import PostLikes from './PostLikes.svelte';
     import PostComments from './PostComments.svelte';
+    import PostAddComment from './PostAddComment.svelte';
 
     export let post;
 </script>
@@ -16,6 +17,7 @@
     <PostBody description = {post.description} image = {post.imageUrl} />
     <PostLikes />
     <PostComments comments = {post.comments} />
+    <PostAddComment />
 </div>
 
 <style>

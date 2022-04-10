@@ -34,12 +34,12 @@
 <style>
     .comments {
         background: rgba(0, 0, 0, 0.1);
-        padding: 20px;
+        
         border-radius: 8px;
     }
 
     .comment {
-        margin-bottom: 30px;
+        padding: 20px;
     }
 
     .author {
