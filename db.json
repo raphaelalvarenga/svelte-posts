@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Lennon",
+            "email": "johnlennon@gmail.com",
+            "password": 123
+        },
+        {
+            "id": 2,
+            "name": "Paul McCartney",
+            "email": "paulmccartney@gmail.com",
+            "password": 123
+        },
+        {
+            "id": 3,
+            "name": "George Harrison",
+            "email": "georgeharrison@gmail.com",
+            "password": 123
+        },
+        {
+            "id": 4,
+            "name": "Ringo Starr",
+            "email": "ringostarr@gmail.com",
+            "password": 123
+        }
+    ]
+}
