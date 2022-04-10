@@ -5,7 +5,7 @@
             "name": "John Lennon",
             "email": "johnlennon@gmail.com",
             "profileUrl": "johnlennon",
-            "avatar": "",
+            "avatar": "https://marciatravessoni.com.br/wp-content/uploads/2021/09/imagine-john-lennon-2.jpeg",
             "password": 123
         },
         {
@@ -13,7 +13,7 @@
             "name": "Paul McCartney",
             "email": "paulmccartney@gmail.com",
             "profileUrl": "paulmccartney",
-            "avatar": "",
+            "avatar": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/1/8/1/0/1810d24931b91ec248ec6192a4cb95b3.jpg",
             "password": 123
         },
         {
@@ -21,7 +21,7 @@
             "name": "George Harrison",
             "email": "georgeharrison@gmail.com",
             "profileUrl": "georgeharrison",
-            "avatar": "",
+            "avatar": "https://amigosdepelotas.com.br/wp-content/uploads/2020/02/EvCB5SeVoAMGg2C.jpg",
             "password": 123
         },
         {
@@ -29,7 +29,7 @@
             "name": "Ringo Starr",
             "email": "ringostarr@gmail.com",
             "profileUrl": "ringostarr",
-            "avatar": "",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjxCAjxzRd-5VaBvo5jRY29Mxf09h-NwxTGw&usqp=CAU",
             "password": 123
         }
     ],
@@ -46,7 +46,7 @@
             },
             "title": "Meeting with Paul",
             "description": "Paul and I will be meeting next week to discuss about a reunion",
-            "imageUrl": "",
+            "imageUrl": "https://f.i.uol.com.br/fotografia/2021/10/11/163396262061644a7ccf922_1633962620_3x2_md.jpg",
             "likes": [
                 {
                     "id": 4,
