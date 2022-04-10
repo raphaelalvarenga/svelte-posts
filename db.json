@@ -55,7 +55,8 @@
                     "id": 4,
                     "name": "Ringo Starr",
                     "email": "ringostarr@gmail.com",
-                    "profileUrl": "ringostarr"
+                    "profileUrl": "ringostarr",
+                    "comment": "This is actually a great news! I can't wait to see what is going to happen from that..."
                 }
             ],
             "createdAt": "2022-04-09 21:14:36",
