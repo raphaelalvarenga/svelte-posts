@@ -42,7 +42,7 @@
                 "name": "John Lennon",
                 "email": "johnlennon@gmail.com",
                 "profileUrl": "johnlennon",
-                "avatar": ""
+                "avatar": "https://marciatravessoni.com.br/wp-content/uploads/2021/09/imagine-john-lennon-2.jpeg"
             },
             "title": "Meeting with Paul",
             "description": "Paul and I will be meeting next week to discuss about a reunion",
@@ -53,7 +53,7 @@
                     "name": "Ringo Starr",
                     "email": "ringostarr@gmail.com",
                     "profileUrl": "ringostarr",
-                    "avatar": ""
+                    "avatar": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/2/1/d/0/21d077ea5a8c65c86ef95a9e5b598b69.jpg"
                 }
             ],
             "comments": [
@@ -68,6 +68,55 @@
             ],
             "createdAt": "2022-04-09 21:14:36",
             "updatedAt": "2022-04-09 21:14:36"
+        },
+        {
+            "id": 2,
+            "author": {
+                "id": 1,
+                "name": "John Lennon",
+                "email": "johnlennon@gmail.com",
+                "profileUrl": "johnlennon",
+                "avatar": ""
+            },
+            "title": "Yes, The Beatles and Rolling Stones are friends!",
+            "description": "Who said we are enemies? Micky and I had a dinner yesterday!",
+            "imageUrl": "https://canaldosbeatles.files.wordpress.com/2013/10/john-lennon-and-mick-jagger-rock-and-roll-cirucus.jpg",
+            "likes": [
+                {
+                    "id": 3,
+                    "name": "George Harrison",
+                    "email": "georgeharrison@gmail.com",
+                    "profileUrl": "georgeharrison",
+                    "avatar": "https://amigosdepelotas.com.br/wp-content/uploads/2020/02/EvCB5SeVoAMGg2C.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Ringo Starr",
+                    "email": "ringostarr@gmail.com",
+                    "profileUrl": "ringostarr",
+                    "avatar": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/2/1/d/0/21d077ea5a8c65c86ef95a9e5b598b69.jpg"
+                }
+            ],
+            "comments": [
+                {
+                    "id": 3,
+                    "name": "George Harrison",
+                    "email": "georgeharrison@gmail.com",
+                    "profileUrl": "georgeharrison",
+                    "avatar": "https://amigosdepelotas.com.br/wp-content/uploads/2020/02/EvCB5SeVoAMGg2C.jpg",
+                    "comment": "I gave him a call last week. Keith Richards and he are planning to go to the World Cup. We should consider go to England match in the quarters"
+                },
+                {
+                    "id": 4,
+                    "name": "Ringo Starr",
+                    "email": "ringostarr@gmail.com",
+                    "profileUrl": "ringostarr",
+                    "avatar": "https://studiosol-a.akamaihd.net/uploadfile/letras/fotos/2/1/d/0/21d077ea5a8c65c86ef95a9e5b598b69.jpg",
+                    "comment": "Last time they did that, England lost. I don't think it is a good idea, tbh you guys..."
+                }
+            ],
+            "createdAt": "2022-04-09 22:30:17",
+            "updatedAt": "2022-04-09 22:30:17"
         }
     ]
 }

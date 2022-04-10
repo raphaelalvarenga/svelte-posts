@@ -1,8 +1,14 @@
+<script>
+    export let avatar;
+    export let author;
+    export let title;
+</script>
+
 <div class="header">
     <div class="avatar">
-        <img src="https://marciatravessoni.com.br/wp-content/uploads/2021/09/imagine-john-lennon-2.jpeg" alt="user-avatar">
+        <img src={avatar} alt="user-avatar">
     </div>
-    <div class="author">John Lennon - Meeting with Paul</div>
+    <div class="author">{author} - {title}</div>
 </div>
 
 <style>
