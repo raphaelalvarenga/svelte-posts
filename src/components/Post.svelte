@@ -14,10 +14,11 @@
 
 <style>
     .post {
-        border: 2px solid black;
         max-width: 800px;
         width: 100%;
         margin: auto;
-        padding: 10px;
+        padding: 20px;
+        box-shadow: 5px 5px 15px black;
+        border-radius: 8px;
     }
 </style>
