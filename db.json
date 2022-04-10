@@ -4,25 +4,62 @@
             "id": 1,
             "name": "John Lennon",
             "email": "johnlennon@gmail.com",
+            "profileUrl": "johnlennon",
             "password": 123
         },
         {
             "id": 2,
             "name": "Paul McCartney",
             "email": "paulmccartney@gmail.com",
+            "profileUrl": "paulmccartney",
             "password": 123
         },
         {
             "id": 3,
             "name": "George Harrison",
             "email": "georgeharrison@gmail.com",
+            "profileUrl": "georgeharrison",
             "password": 123
         },
         {
             "id": 4,
             "name": "Ringo Starr",
             "email": "ringostarr@gmail.com",
+            "profileUrl": "ringostarr",
             "password": 123
+        }
+    ],
+
+    "posts": [
+        {
+            "id": 1,
+            "author": {
+                "id": 1,
+                "name": "John Lennon",
+                "email": "johnlennon@gmail.com",
+                "profileUrl": "johnlennon"
+            },
+            "title": "Meeting with Paul",
+            "description": "Paul and I will be meeting next week to discuss about a reunion",
+            "imageUrl": "",
+            "likes": [
+                {
+                    "id": 4,
+                    "name": "Ringo Starr",
+                    "email": "ringostarr@gmail.com",
+                    "profileUrl": "ringostarr"
+                }
+            ],
+            "comments": [
+                {
+                    "id": 4,
+                    "name": "Ringo Starr",
+                    "email": "ringostarr@gmail.com",
+                    "profileUrl": "ringostarr"
+                }
+            ],
+            "createdAt": "2022-04-09 21:14:36",
+            "updatedAt": "2022-04-09 21:14:36"
         }
     ]
 }
