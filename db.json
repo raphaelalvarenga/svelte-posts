@@ -5,6 +5,7 @@
             "name": "John Lennon",
             "email": "johnlennon@gmail.com",
             "profileUrl": "johnlennon",
+            "avatar": "",
             "password": 123
         },
         {
@@ -12,6 +13,7 @@
             "name": "Paul McCartney",
             "email": "paulmccartney@gmail.com",
             "profileUrl": "paulmccartney",
+            "avatar": "",
             "password": 123
         },
         {
@@ -19,6 +21,7 @@
             "name": "George Harrison",
             "email": "georgeharrison@gmail.com",
             "profileUrl": "georgeharrison",
+            "avatar": "",
             "password": 123
         },
         {
@@ -26,6 +29,7 @@
             "name": "Ringo Starr",
             "email": "ringostarr@gmail.com",
             "profileUrl": "ringostarr",
+            "avatar": "",
             "password": 123
         }
     ],
@@ -37,7 +41,8 @@
                 "id": 1,
                 "name": "John Lennon",
                 "email": "johnlennon@gmail.com",
-                "profileUrl": "johnlennon"
+                "profileUrl": "johnlennon",
+                "avatar": ""
             },
             "title": "Meeting with Paul",
             "description": "Paul and I will be meeting next week to discuss about a reunion",
@@ -47,7 +52,8 @@
                     "id": 4,
                     "name": "Ringo Starr",
                     "email": "ringostarr@gmail.com",
-                    "profileUrl": "ringostarr"
+                    "profileUrl": "ringostarr",
+                    "avatar": ""
                 }
             ],
             "comments": [
@@ -56,6 +62,7 @@
                     "name": "Ringo Starr",
                     "email": "ringostarr@gmail.com",
                     "profileUrl": "ringostarr",
+                    "avatar": "",
                     "comment": "This is actually a great news! I can't wait to see what is going to happen from that..."
                 }
             ],
