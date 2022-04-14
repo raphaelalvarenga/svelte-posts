@@ -15,7 +15,7 @@
         title = {post.title}
     />
     <PostBody description = {post.description} image = {post.imageUrl} />
-    <Interactions />
+    <Interactions type = "posts" />
     <PostComments comments = {post.comments} />
     <PostAddComment />
 </div>

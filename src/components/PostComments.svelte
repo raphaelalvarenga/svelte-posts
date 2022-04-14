@@ -3,6 +3,7 @@
     import FaHeart from 'svelte-icons/fa/FaHeart.svelte';
     import FaRegComment from 'svelte-icons/fa/FaRegComment.svelte';
     import Avatar from './Avatar.svelte';
+    import Interactions from './Interactions.svelte';
 
     export let comments = [];
 </script>
@@ -17,7 +18,7 @@
 
             <div class="description">{comment.comment}</div>
 
-            <div class="likes">
+            <!-- <div class="likes">
                 <div class = "icons">
                     <FaRegHeart />
                 </div>
@@ -25,7 +26,8 @@
                 <div class = "icons">
                     <FaRegComment />
                 </div>
-            </div>
+            </div> -->
+            <Interactions type = "comments" />
         </div>
     {/each}
 </div>
@@ -51,7 +53,7 @@
         margin-left: 60px;
     }
 
-    .likes {
+    /* .likes {
         margin-top: 15px;
         margin-left: 60px;
         display: flex;
@@ -63,5 +65,5 @@
 
     .icons:nth-child(1) {
         margin-right: 10px;
-    }
+    } */
 </style>
