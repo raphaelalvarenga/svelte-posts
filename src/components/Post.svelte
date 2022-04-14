@@ -24,10 +24,9 @@
     .post {
         max-width: 800px;
         width: 100%;
-        margin: auto;
+        margin: 50px auto;
         padding: 20px;
         box-shadow: 5px 5px 15px rgb(150, 150, 150);
         border-radius: 8px;
-        margin-bottom: 50px;
     }
 </style>
