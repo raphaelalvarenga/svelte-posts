@@ -1,12 +1,9 @@
 <script>
     import FaRegHeart from 'svelte-icons/fa/FaRegHeart.svelte';
-    import FaHeart from 'svelte-icons/fa/FaHeart.svelte';
     import FaRegComment from 'svelte-icons/fa/FaRegComment.svelte';
-
-    // export let likes = [];
 </script>
 
-<div class="likes">
+<div class="container">
     <div class = "icons">
         <FaRegHeart />
     </div>
@@ -17,7 +14,7 @@
 </div>
 
 <style>
-    .likes {
+    .container {
         padding: 30px 0;
         display: flex;
     }

@@ -1,7 +1,7 @@
 <script>
     import PostHeader from './PostHeader.svelte';
     import PostBody from './PostBody.svelte';
-    import PostLikes from './PostLikes.svelte';
+    import Interactions from './Interactions.svelte';
     import PostComments from './PostComments.svelte';
     import PostAddComment from './PostAddComment.svelte';
 
@@ -15,7 +15,7 @@
         title = {post.title}
     />
     <PostBody description = {post.description} image = {post.imageUrl} />
-    <PostLikes />
+    <Interactions />
     <PostComments comments = {post.comments} />
     <PostAddComment />
 </div>
