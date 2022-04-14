@@ -5,12 +5,22 @@
     export let type;
 </script>
 
-<div class={`${type === "posts" ? "container-posts" : "container-comments"}`}>
-    <div class = {`${type === "posts" ? "icons-post" : "icons-comments"}`}>
+<!-- <div class={`${type === "posts" ? "container-posts" : "container-comments"}`}> -->
+<div
+    class:container-posts={type === "posts"}
+    class:container-comments = {type === "comments"}
+>
+    <div
+        class:icons-post = {type === "posts"}
+        class:icons-comments = {type === "comments"}
+    >
         <FaRegHeart />
     </div>
 
-    <div class = {`${type === "posts" ? "icons-post" : "icons-comments"}`}>
+    <div
+        class:icons-post = {type === "posts"}
+        class:icons-comments = {type === "comments"}
+    >
         <FaRegComment />
     </div>
 </div>
