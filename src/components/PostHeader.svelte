@@ -1,13 +1,13 @@
 <script>
+    import Avatar from './Avatar.svelte';
+    
     export let avatar;
     export let author;
     export let title;
 </script>
 
 <div class="header">
-    <div class="avatar">
-        <img src={avatar} alt="user-avatar">
-    </div>
+    <Avatar src = {avatar} />
     <div class="author">{author} - {title}</div>
 </div>
 

@@ -2,6 +2,7 @@
     import FaRegHeart from 'svelte-icons/fa/FaRegHeart.svelte';
     import FaHeart from 'svelte-icons/fa/FaHeart.svelte';
     import FaRegComment from 'svelte-icons/fa/FaRegComment.svelte';
+    import Avatar from './Avatar.svelte';
 
     export let comments = [];
 </script>
@@ -10,9 +11,7 @@
     {#each comments as comment (comment.id)}
         <div class="comment">
             <div class="author">
-                <div class="avatar">
-                    <img src={comment.avatar} alt="user">
-                </div>
+                <Avatar src = {comment.avatar} />
                 {comment.name}
             </div>
 
