@@ -19,18 +19,4 @@
         padding: 10px 0;
         font-weight: bold;
     }
-
-    .avatar {
-        border-radius: 25px;
-        overflow: hidden;
-        margin-right: 10px;
-    }
-
-    .avatar img {
-        width: 50px;
-    }
-
-    /* .author {}
-
-    .title {} */
 </style>

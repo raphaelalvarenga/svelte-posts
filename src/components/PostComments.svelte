@@ -48,17 +48,6 @@
         font-weight: bold;
     }
 
-    .avatar {
-        width: 50px;
-        border-radius: 25px;
-        overflow: hidden;
-        margin-right: 10px;
-    }
-
-    .avatar img {
-        width: 50px;
-    }
-
     .description {
         margin-left: 60px;
     }
