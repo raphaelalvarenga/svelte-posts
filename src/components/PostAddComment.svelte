@@ -1,9 +1,11 @@
 <script>
     import MdSend from 'svelte-icons/md/MdSend.svelte';
+
+    let newComment = "";
 </script>
 
 <div style = "display: flex; align-items: center; margin-top: 30px;">
-    <div><input type="text" placeholder="Type something..."></div>
+    <div><input type="text" placeholder="Type something..." bind:value = {newComment}></div>
     <div class="send-container"><MdSend /></div>
 </div>
 
